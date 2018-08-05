@@ -79,9 +79,9 @@
       mk_global_lazyload = true;
 
   </script>
-  <link rel='stylesheet' id='contact-form-7-css' href='http://dropier.atypical-studio.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3' type='text/css' media='all' />
-  <link rel='stylesheet' id='bodhi-svgs-attachment-css' href='http://dropier.atypical-studio.com/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.8' type='text/css' media='all' />
-  <link rel='stylesheet' id='theme-styles-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/min/full-styles.6.1.5.css?ver=1533457251' type='text/css' media='all' />
+  <link rel='stylesheet' id='contact-form-7-css' href='assets/css/contact-form.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='bodhi-svgs-attachment-css' href='assets/css/svgs-attach.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='theme-styles-css' href='assets/css/full-styles.css' type='text/css' media='all' />
   <style id='theme-styles-inline-css' type='text/css'>
     body {
       background-color: #fff;
@@ -220,7 +220,7 @@
     }
 
   </style>
-  <link rel='stylesheet' id='mkhb-render-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-render.css?ver=6.1.5' type='text/css' media='all' />
+  <link rel='stylesheet' id='mkhb-render-css' href='assets/css/mkhb-render.css' type='text/css' media='all' />
   <link rel='stylesheet' id='mkhb-row-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-row.css?ver=6.1.5' type='text/css' media='all' />
   <link rel='stylesheet' id='mkhb-column-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-column.css?ver=6.1.5' type='text/css' media='all' />
   <link rel='stylesheet' id='js_composer_front-css' href='http://dropier.atypical-studio.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.5.2' type='text/css' media='all' />
@@ -248,13 +248,14 @@
     }
 
   </script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+  <script type='text/javascript' src='assets/js/jquery1-12-4.js'></script>
+  <script type='text/javascript' src='assets/js/jquery-migrate-1-4-1.js'></script>
   <link rel='https://api.w.org/' href='http://dropier.atypical-studio.com/wp-json/' />
   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dropier.atypical-studio.com/xmlrpc.php?rsd" />
   <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dropier.atypical-studio.com/wp-includes/wlwmanifest.xml" />
-  <meta name="generator" content="WordPress 4.9.8" />
-  <link rel='shortlink' href='http://dropier.atypical-studio.com/' />
+
+  <link rel='shortlink' href='http://dropier.tk/' />
+  
   <link rel="alternate" type="application/json+oembed" href="http://dropier.atypical-studio.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdropier.atypical-studio.com%2F" />
   <link rel="alternate" type="text/xml+oembed" href="http://dropier.atypical-studio.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdropier.atypical-studio.com%2F&#038;format=xml" />
   <script>
@@ -296,7 +297,7 @@
     }
 
     .vc_custom_1533482396972 {
-      background-image: url(http://dropier.atypical-studio.com/wp-content/uploads/2018/08/almacenaje-en-la-nuebe.jpg?id=22) !important;
+      background-image: url('assets/img/bg.jpg') !important;
       background-position: center !important;
       background-repeat: no-repeat !important;
       background-size: cover !important;
@@ -695,6 +696,12 @@
                         <p><span class="wpcf7-form-control-wrap telefono">
                         <input type="tel" name="telefono" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Teléfono*" /></span></p>
                         
+                        <input type="text" name="_gotcha" style="display:none" />
+                        
+                        <input type="hidden" name="_subject" value="[lead from dropier.tk] " />
+                        <input type="hidden" name="_language" value="es" />
+                        <input type="hidden" name="_format" value="plain" />
+                        
                         <p><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></p>
                         </center>
                         <div class="wpcf7-response-output wpcf7-display-none"></div>
@@ -975,12 +982,23 @@
     /* ]]> */
 
   </script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/js/min/full-scripts.6.1.5.js?ver=1533457251'></script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-render.js?ver=6.1.5'></script>
+  <!--
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script> -->
+  <script type='text/javascript' src='assets/js/full-scripts-6-1-5.js'></script>
+  <!--
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-render.js?ver=6.1.5'></script> 
+  -->
+  <!--
   <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-column.js?ver=6.1.5'></script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
-  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.5.2'></script>
+  -->
+  <!--
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-
+  includes/js/wp-embed.min.js?ver=4.9.8'></script>
+  -->
+  <!--
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.5.2'>
+    -->
+  </script>
   <script type="text/javascript">
     window.get = {};
     window.get.captcha = function(enteredCaptcha) {
