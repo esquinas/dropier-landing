@@ -1,201 +1,996 @@
-<!DOCTYPE HTML>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="es-ES" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <title>dropier storage</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <meta name="description" content="Almacenamiento f&aacute;cil en la nube" />
-    <meta property="og:site_name" content="dropier storage" />
-    <meta property="og:title" content="dropier storage" />
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="assets/img/card.jpg" />
-    <meta property="og:description" content="Almacenamiento f&aacute;cil en la nube" />
-    <meta property="og:url" content="https://dropier.tk" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="assets/css/style.css" /><noscript><style>body {overflow: auto !important;}body:after {display: none !important;}#main > .inner {opacity: 1.0 !important;}#main {opacity: 1.0 !important;-moz-transform: none !important;-webkit-transform: none !important;-ms-transform: none !important;transform: none !important;-moz-transition: none !important;-webkit-transition: none !important;-ms-transition: none !important;transition: none !important;-moz-filter: none !important;-webkit-filter: none !important;-ms-filter: none !important;filter: none !important;}#main > .inner > * {opacity: 1.0 !important;-moz-transform: none !important;-webkit-transform: none !important;-ms-transform: none !important;transform: none !important;-moz-transition: none !important;-webkit-transition: none !important;-ms-transition: none !important;transition: none !important;-moz-filter: none !important;-webkit-filter: none !important;-ms-filter: none !important;filter: none !important;}</style></noscript>
-    <meta name="cda-signature" content="711c2553f80cc7b268dc6b0874cb2775" />
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="format-detection" content="telephone=no">
+  <title>Dropier - almacenaje para empresas</title>
+  <script type="text/javascript">
+    var ajaxurl = "http://dropier.atypical-studio.com/wp-admin/admin-ajax.php";
 
-<body class="is-loading">
-    <div id="wrapper">
-        <div id="main">
-            <div class="inner">
-                <div id="container01" class="container">
-                    <div class="inner">
-                        <div>
-                            <div id="image01" class="image"><img src="assets/img/image01.svg" alt="logo" /></div>
-                        </div>
-                        <div>
-                            <div id="image02" class="image full"><img src="assets/img/image02.svg" alt="dropier" /></div>
-                        </div>
-                    </div>
-                </div>
-                <h1 id="text01">Próximamente…</h1>
-            </div>
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--  Yoast SEO plugin v7.9 -->
+  <meta name="robots" content="noindex,follow" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="empresas - Dropier" />
+  <meta property="og:url" content="http://dropier.atypical-studio.com/" />
+  <meta property="og:site_name" content="Dropier" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="empresas - Dropier" />
+  <script type='application/ld+json'>
+    {
+      "@context": "https:\/\/schema.org",
+      "@type": "WebSite",
+      "@id": "#website",
+      "url": "http:\/\/dropier.atypical-studio.com\/",
+      "name": "Dropier",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http:\/\/dropier.atypical-studio.com\/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+
+  </script>
+  <!-- / Yoast SEO plugin. -->
+
+  <link rel='dns-prefetch' href='//s.w.org' />
+  <link rel="alternate" type="application/rss+xml" title="Dropier &raquo; Feed" href="http://dropier.atypical-studio.com/feed" />
+  <link rel="alternate" type="application/rss+xml" title="Dropier &raquo; RSS de los comentarios" href="http://dropier.atypical-studio.com/comments/feed" />
+
+  <link rel="shortcut icon" href="http://dropier.atypical-studio.com/wp-content/uploads/2018/08/dropier-favicon.png" />
+  <script type="text/javascript">
+    window.abb = {};
+    php = {};
+    window.PHP = {};
+    PHP.ajax = "http://dropier.atypical-studio.com/wp-admin/admin-ajax.php";
+    PHP.wp_p_id = "10";
+    var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;
+    var mk_images_dir = "http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/images",
+      mk_theme_js_path = "http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/js",
+      mk_theme_dir = "http://dropier.atypical-studio.com/wp-content/themes/jupiter",
+      mk_captcha_placeholder = "Enter Captcha",
+      mk_captcha_invalid_txt = "Invalid. Try again.",
+      mk_captcha_correct_txt = "Captcha correct.",
+      mk_responsive_nav_width = 1140,
+      mk_vertical_header_back = "Volver",
+      mk_vertical_header_anim = "1",
+      mk_check_rtl = true,
+      mk_grid_width = 1140,
+      mk_ajax_search_option = "fullscreen_search",
+      mk_preloader_bg_color = "#fff",
+      mk_accent_color = "#00b4ff",
+      mk_go_to_top = "true",
+      mk_smooth_scroll = "true",
+      mk_preloader_bar_color = "#00b4ff",
+      mk_preloader_logo = "";
+    var mk_header_parallax = false,
+      mk_banner_parallax = false,
+      mk_footer_parallax = false,
+      mk_body_parallax = false,
+      mk_no_more_posts = "No More Posts",
+      mk_typekit_id = "",
+      mk_google_fonts = ["Raleway:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900", "Roboto:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900"],
+      mk_global_lazyload = true;
+
+  </script>
+  <link rel='stylesheet' id='contact-form-7-css' href='http://dropier.atypical-studio.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3' type='text/css' media='all' />
+  <link rel='stylesheet' id='bodhi-svgs-attachment-css' href='http://dropier.atypical-studio.com/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.8' type='text/css' media='all' />
+  <link rel='stylesheet' id='theme-styles-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/min/full-styles.6.1.5.css?ver=1533457251' type='text/css' media='all' />
+  <style id='theme-styles-inline-css' type='text/css'>
+    body {
+      background-color: #fff;
+    }
+
+    .hb-custom-header #mk-page-introduce,
+    .mk-header {
+      background-color: #ffffff;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+    }
+
+    .hb-custom-header>div,
+    .mk-header-bg {
+      background-color: #fff;
+    }
+
+    .mk-classic-nav-bg {
+      background-color: #fff;
+    }
+
+    .master-holder-bg {
+      background-color: #fff;
+    }
+
+    #mk-footer {
+      background-color: #3d4045;
+    }
+
+    #mk-boxed-layout {
+      -webkit-box-shadow: 0 0 px rgba(0, 0, 0, );
+      -moz-box-shadow: 0 0 px rgba(0, 0, 0, );
+      box-shadow: 0 0 px rgba(0, 0, 0, );
+    }
+
+    .mk-news-tab .mk-tabs-tabs .is-active a,
+    .mk-fancy-title.pattern-style span,
+    .mk-fancy-title.pattern-style.color-gradient span:after,
+    .page-bg-color {
+      background-color: #fff;
+    }
+
+    .page-title {
+      font-size: 20px;
+      color: #4d4d4d;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+
+    .page-subtitle {
+      font-size: 14px;
+      line-height: 100%;
+      color: #a3a3a3;
+      font-size: 14px;
+      text-transform: none;
+    }
+
+    h1,
+    h4 {
+      font-family: Raleway
+    }
+
+    body {
+      font-family: Roboto
+    }
+
+    @font-face {
+      font-family: 'star';
+      src: url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot');
+      src: url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?#iefix') format('embedded-opentype'), url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff') format('woff'), url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf') format('truetype'), url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg#star') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'WooCommerce';
+      src: url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot');
+      src: url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?#iefix') format('embedded-opentype'), url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff') format('woff'), url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf') format('truetype'), url('http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg#WooCommerce') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .logotipo .mk-image-inner.is-svg {
+      width: 220px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .iconos .mk-image-inner.is-svg {
+      width: 150px;
+      height: auto;
+    }
+
+    .mk-custom-box.caja-sombra {
+      box-shadow: 0px 4px 9px 0 rgba(53, 48, 82, 0.19);
+    }
+
+    input.wpcf7-form-control.wpcf7-text {
+      width: 60%;
+      border: none;
+      border-bottom: solid 2px #353052;
+      background-color: transparent;
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    input.wpcf7-form-control.wpcf7-submit {
+      background-color: #00b4ff;
+      padding: 15px 40px;
+      border-radius: 40px;
+      text-transform: none;
+      font-size: 15px;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #353052 !important;
+      opacity: 1;
+    }
+
+    :-moz-placeholder {
+      color: #353052 !important;
+      opacity: 1;
+    }
+
+    ::-moz-placeholder {
+      color: #353052 !important;
+      opacity: 1;
+    }
+
+    :-ms-input-placeholder {
+      color: #353052 !important;
+      opacity: 1;
+    }
+
+  </style>
+  <link rel='stylesheet' id='mkhb-render-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-render.css?ver=6.1.5' type='text/css' media='all' />
+  <link rel='stylesheet' id='mkhb-row-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-row.css?ver=6.1.5' type='text/css' media='all' />
+  <link rel='stylesheet' id='mkhb-column-css' href='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-column.css?ver=6.1.5' type='text/css' media='all' />
+  <link rel='stylesheet' id='js_composer_front-css' href='http://dropier.atypical-studio.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.5.2' type='text/css' media='all' />
+  <link rel='stylesheet' id='theme-options-css' href='http://dropier.atypical-studio.com/wp-content/uploads/mk_assets/theme-options-production-1533482910.css?ver=1533482905' type='text/css' media='all' />
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/js/plugins/wp-enqueue/min/webfontloader.js?ver=4.9.8'></script>
+  <script type='text/javascript'>
+    WebFontConfig = {
+      timeout: 2000
+    }
+
+    if (mk_typekit_id.length > 0) {
+      WebFontConfig.typekit = {
+        id: mk_typekit_id
+      }
+    }
+
+    if (mk_google_fonts.length > 0) {
+      WebFontConfig.google = {
+        families: mk_google_fonts
+      }
+    }
+
+    if ((mk_google_fonts.length > 0 || mk_typekit_id.length > 0) && navigator.userAgent.indexOf("Speed Insights") == -1) {
+      WebFont.load(WebFontConfig);
+    }
+
+  </script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+  <link rel='https://api.w.org/' href='http://dropier.atypical-studio.com/wp-json/' />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dropier.atypical-studio.com/xmlrpc.php?rsd" />
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dropier.atypical-studio.com/wp-includes/wlwmanifest.xml" />
+  <meta name="generator" content="WordPress 4.9.8" />
+  <link rel='shortlink' href='http://dropier.atypical-studio.com/' />
+  <link rel="alternate" type="application/json+oembed" href="http://dropier.atypical-studio.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdropier.atypical-studio.com%2F" />
+  <link rel="alternate" type="text/xml+oembed" href="http://dropier.atypical-studio.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdropier.atypical-studio.com%2F&#038;format=xml" />
+  <script>
+    var isTest = false;
+
+  </script>
+  <meta itemprop="author" content="admindropier" />
+  <meta itemprop="datePublished" content="agosto 5, 2018" />
+  <meta itemprop="dateModified" content="agosto 5, 2018" />
+  <meta itemprop="publisher" content="Dropier" />
+  <style type="text/css">
+    .recentcomments a {
+      display: inline !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+  </style>
+  <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+  <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://dropier.atypical-studio.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+  <meta name="generator" content="Jupiter 6.1.5" />
+  <style type="text/css" data-type="vc_shortcodes-custom-css">
+    .vc_custom_1533482009816 {
+      background-position: 0 0 !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .vc_custom_1533482420414 {
+      background-position: 0 0 !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .vc_custom_1533477673092 {
+      background-color: #fafafd !important;
+    }
+
+    .vc_custom_1533482181240 {
+      background-color: #fafafd !important;
+    }
+
+    .vc_custom_1533482396972 {
+      background-image: url(http://dropier.atypical-studio.com/wp-content/uploads/2018/08/almacenaje-en-la-nuebe.jpg?id=22) !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+
+    .vc_custom_1533480596071 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533482086227 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533480683787 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533480791762 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533480855682 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533480926153 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533481009638 {
+      margin-bottom: 0px !important;
+    }
+
+    .vc_custom_1533481231521 {
+      margin-bottom: 0px !important;
+    }
+
+  </style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript> </head>
+
+<body class="home page-template-default page page-id-10 wpb-js-composer js-comp-ver-5.5.2 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage" data-adminbar="">
+
+
+
+  <!-- Target for scroll anchors to achieve native browser bahaviour + possible enhancements like smooth scrolling -->
+  <div id="top-of-page"></div>
+
+  <div id="mk-boxed-layout">
+
+    <div id="mk-theme-container">
+
+
+
+      <div id="theme-page" class="master-holder  clearfix" itemscope=&quot;itemscope&quot; itemtype=&quot;https://schema.org/Blog&quot;>
+        <div class="master-holder-bg-holder">
+          <div id="theme-page-bg" class="master-holder-bg js-el"></div>
         </div>
-    </div>
-    <script>
-        var on = addEventListener,
-            $ = function(q) {
-                return document.querySelector(q)
-            },
-            $$ = function(q) {
-                return document.querySelectorAll(q)
-            },
-            $body = document.body,
-            $inner = $('.inner'),
-            client = (function() {
-                var o = {
-                        browser: 'other',
-                        browserVersion: 0,
-                        os: 'other',
-                        osVersion: 0,
-                        canUse: null
-                    },
-                    ua = navigator.userAgent,
-                    a, i;
-                a = [
-                    ['firefox', /Firefox\/([0-9\.]+)/],
-                    ['edge', /Edge\/([0-9\.]+)/],
-                    ['safari', /Version\/([0-9\.]+).+Safari/],
-                    ['chrome', /Chrome\/([0-9\.]+)/],
-                    ['ie', /Trident\/.+rv:([0-9]+)/]
-                ];
-                for (i = 0; i < a.length; i++) {
-                    if (ua.match(a[i][1])) {
-                        o.browser = a[i][0];
-                        o.browserVersion = parseFloat(RegExp.$1);
-                        break;
-                    }
-                }
-                a = [
-                    ['ios', /([0-9_]+) like Mac OS X/, function(v) {
-                        return v.replace('_', '.').replace('_', '');
-                    }],
-                    ['ios', /CPU like Mac OS X/, function(v) {
-                        return 0
-                    }],
-                    ['android', /Android ([0-9\.]+)/, null],
-                    ['mac', /Macintosh.+Mac OS X ([0-9_]+)/, function(v) {
-                        return v.replace('_', '.').replace('_', '');
-                    }],
-                    ['windows', /Windows NT ([0-9\.]+)/, null]
-                ];
-                for (i = 0; i < a.length; i++) {
-                    if (ua.match(a[i][1])) {
-                        o.os = a[i][0];
-                        o.osVersion = parseFloat(a[i][2] ? (a[i][2])(RegExp.$1) : RegExp.$1);
-                        break;
-                    }
-                }
-                var _canUse = document.createElement('div');
-                o.canUse = function(p) {
-                    var e = _canUse.style,
-                        up = p.charAt(0).toUpperCase() + p.slice(1);
-                    return (p in e || ('Moz' + up) in e || ('Webkit' + up) in e || ('O' + up) in e || ('ms' + up) in e);
-                };
-                return o;
-            }()),
-            trigger = function(t) {
-                if (client.browser == 'ie') {
-                    var e = document.createEvent('Event');
-                    e.initEvent(t, false, true);
-                    dispatchEvent(e);
-                } else dispatchEvent(new Event(t));
-            };
-        on('load', function() {
-            setTimeout(function() {
-                $body.className = $body.className.replace(/\bis-loading\b/, 'is-playing');
-                setTimeout(function() {
-                    $body.className = $body.className.replace(/\bis-playing\b/, 'is-ready');
-                }, 6500);
-            }, 100);
-        });
-        var style, sheet, rule;
-        style = document.createElement('style');
-        style.appendChild(document.createTextNode(''));
-        document.head.appendChild(style);
-        sheet = style.sheet;
-        if (client.os == 'android') {
-            (function() {
-                sheet.insertRule('body::after { }', 0);
-                rule = sheet.cssRules[0];
-                var f = function() {
-                    rule.style.cssText = 'height: ' + (Math.max(screen.width, screen.height)) + 'px';
-                };
-                on('load', f);
-                on('orientationchange', f);
-                on('touchmove', f);
-            })();
-        } else if (client.os == 'ios') {
-            (function() {
-                sheet.insertRule('body::after { }', 0);
-                rule = sheet.cssRules[0];
-                rule.style.cssText = '-webkit-transform: scale(1.0)';
-            })();
-            (function() {
-                sheet.insertRule('body.ios-focus-fix::before { }', 0);
-                rule = sheet.cssRules[0];
-                rule.style.cssText = 'height: calc(100% + 60px)';
-                on('focus', function(event) {
-                    $body.classList.add('ios-focus-fix');
-                }, true);
-                on('blur', function(event) {
-                    $body.classList.remove('ios-focus-fix');
-                }, true);
-            })();
-        } else if (client.browser == 'ie') {
-            (function() {
-                var t, f;
-                f = function() {
-                    var mh, h, s, xx, x, i;
-                    x = $('#wrapper');
-                    x.style.height = 'auto';
-                    if (x.scrollHeight <= innerHeight) x.style.height = '100vh';
-                    xx = $$('.container.full');
-                    for (i = 0; i < xx.length; i++) {
-                        x = xx[i];
-                        s = getComputedStyle(x);
-                        x.style.minHeight = '';
-                        x.style.height = '';
-                        mh = s.minHeight;
-                        x.style.minHeight = 0;
-                        x.style.height = '';
-                        h = s.height;
-                        if (mh == 0) continue;
-                        x.style.height = (h > mh ? 'auto' : mh);
-                    }
-                };
-                (f)();
-                on('resize', function() {
-                    clearTimeout(t);
-                    t = setTimeout(f, 250);
-                });
-                on('load', f);
-            })();
-        }
-        if (!client.canUse('object-fit')) {
-            var xx = $$('.image[data-position]'),
-                x, c, i, src;
-            for (i = 0; i < xx.length; i++) {
-                x = xx[i];
-                c = x.firstChild;
-                if (c.tagName != 'IMG') c = c.firstChild;
-                if (c.parentNode.classList.contains('deferred')) {
-                    c.parentNode.classList.remove('deferred');
-                    src = c.getAttribute('data-src');
-                    c.removeAttribute('data-src');
-                } else src = c.getAttribute('src');
-                c.style['backgroundImage'] = 'url(\'' + src + '\')';
-                c.style['backgroundSize'] = 'cover';
-                c.style['backgroundPosition'] = x.dataset.position;
-                c.style['backgroundRepeat'] = 'no-repeat';
-                c.src = 'data:image/svg+xml;charset=utf8,' + escape('<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewBox="0 0 1 1"></svg>');
-            }
-        }
+        <div class="mk-main-wrapper-holder">
+          <div id="mk-page-id-10" class="theme-page-wrapper mk-main-wrapper mk-grid full-layout no-padding">
+            <div class="theme-content no-padding" itemprop="mainEntityOfPage">
 
-    </script>
+              <div data-mk-full-width="true" data-mk-full-width-init="false" data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid hidden-sm mk-fullwidth-true add-padding-0 attched-true principal   vc_custom_1533482009816  equal-columns js-master-row  mk-full-content-true">
+
+                <div class="vc_col-sm-6 vc_hidden-sm vc_hidden-xs wpb_column column_container   _ height-full">
+
+                  <div id="padding-3" class="mk-padding-divider   clearfix"></div>
+
+
+
+                  <div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+                    <div class="mk-grid">
+
+                      <div class="wpb_column vc_column_container vc_col-sm-9 vc_col-lg-offset-2 vc_col-md-offset-2 vc_col-sm-offset-2">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class="mk-image mk-image-4   align-left simple-frame inside-image logotipo" style="margin-bottom:10px">
+                              <div class="mk-image-container" style="width:100%;">
+                                <div class="mk-image-holder" style="width:100%;">
+                                  <div class="mk-image-inner is-svg "><img class="lightbox-false" alt="dropier-logo" title="dropier-logo" width="0" height="0" src="http://dropier.atypical-studio.com/wp-content/uploads/2018/08/dropier-logo.svg" style="width:100%;" /></div>
+                                </div>
+                                <div class="clearboth"></div>
+                              </div>
+                            </div>
+                            <div id="padding-5" class="mk-padding-divider   clearfix"></div>
+
+                            <div class=" vc_custom_1533480596071">
+
+                              <div id="text-block-6" class="mk-text-block   ">
+
+
+                                <h1>Descubre el almacenaje en la nube.</h1>
+                                <h2>Logística integral bajo demanda, sin costes fijos. Mejora tu negocio sin inversión.</h2>
+
+                                <div class="clearboth"></div>
+                              </div>
+
+                            </div>
+
+                            <div id="padding-7" class="mk-padding-divider   clearfix"></div>
+
+
+                            <div id="mk-button-8" class="mk-button-container _ relative    inline left ">
+
+
+                              <a href="#comenzar" target="_self" class="mk-button js-smooth-scroll mk-button--dimension-flat mk-button--size-large mk-button--corner-full_rounded text-color-light _ relative text-center font-weight-700 no-backface  letter-spacing-2 inline"><span class="mk-button--text">Comenzar</span></a>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div id="padding-9" class="mk-padding-divider   clearfix"></div>
+
+                </div>
+
+                <div class="vc_col-sm-6 vc_hidden-sm vc_hidden-xs wpb_column column_container vc_custom_1533482396972  _ height-full">
+                </div>
+              </div>
+              <div class="vc_row-full-width vc_clearfix"></div>
+              <div data-mk-full-width="true" data-mk-full-width-init="false" class="wpb_row vc_row vc_row-fluid hidden-dt mk-fullwidth-true add-padding-0 attched-true principal   vc_custom_1533482420414  equal-columns js-master-row ">
+                <div class="mk-grid">
+
+                  <div class="vc_col-sm-12 vc_hidden-lg vc_hidden-md wpb_column column_container   _ height-full">
+
+                    <div id="padding-12" class="mk-padding-divider   clearfix"></div>
+
+                    <div class="mk-image mk-image-13   align-center simple-frame inside-image logotipo" style="margin-bottom:10px">
+                      <div class="mk-image-container" style="width:100%;">
+                        <div class="mk-image-holder" style="width:100%;">
+                          <div class="mk-image-inner is-svg "><img class="lightbox-false" alt="dropier-logo" title="dropier-logo" width="0" height="0" src="assets/svg/dropier-logo.svg" style="width:100%;" /></div>
+                        </div>
+                        <div class="clearboth"></div>
+                      </div>
+                    </div>
+                    <div id="padding-14" class="mk-padding-divider   clearfix"></div>
+
+
+
+                    <div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+
+                      <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-1 vc_col-md-offset-1 vc_col-sm-offset-1">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class=" vc_custom_1533482086227">
+
+                              <div id="text-block-15" class="mk-text-block   ">
+
+
+                                <h1 style="text-align: center;">Descubre el almacenaje en la nube.</h1>
+                                <h2 style="text-align: center;">Logística integral bajo demanda, sin costes fijos. Mejora tu negocio sin inversión.</h2>
+
+                                <div class="clearboth"></div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="padding-16" class="mk-padding-divider   clearfix"></div>
+
+
+                    <div id="mk-button-17" class="mk-button-container _ relative    block text-center ">
+
+
+                      <a href="#comenzar" target="_self" class="mk-button js-smooth-scroll mk-button--dimension-flat mk-button--size-large mk-button--corner-full_rounded text-color-light _ relative text-center font-weight-700 no-backface  letter-spacing-2 inline"><span class="mk-button--text">Comenzar</span></a>
+
+
+                    </div>
+
+                    <div id="padding-18" class="mk-padding-divider   clearfix"></div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="vc_row-full-width vc_clearfix"></div>
+              <div data-mk-full-width="true" data-mk-full-width-init="false" class="wpb_row vc_row vc_row-fluid  mk-fullwidth-true  attched-false    vc_custom_1533477673092  equal-columns js-master-row ">
+                <div class="mk-grid">
+
+                  <div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+
+                    <div id="padding-20" class="mk-padding-divider   clearfix"></div>
+
+                    <div class=" vc_custom_1533480683787">
+
+                      <div id="text-block-21" class="mk-text-block   ">
+
+
+                        <h4 style="text-align: center;">¿Cómo funciona?</h4>
+
+                        <div class="clearboth"></div>
+                      </div>
+
+                    </div>
+
+                    <div id="padding-22" class="mk-padding-divider   clearfix"></div>
+
+
+
+                    <div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+
+                      <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-offset-2 vc_col-md-offset-2 vc_col-sm-offset-2">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class="mk-custom-box caja-sombra hover-effect-image" id="box-23">
+                              <div class="box-holder">
+                                <div class="mk-image mk-image-24   align-center simple-frame inside-image iconos" style="margin-bottom:10px">
+                                  <div class="mk-image-container" style="width:100%;">
+                                    <div class="mk-image-holder" style="width:100%;">
+                                      <div class="mk-image-inner is-svg "><img class="lightbox-false" alt="recogia-mercancia" title="recogia-mercancia" width="0" height="0" src="assets/svg/recogia-mercancia.svg" style="width:100%;"></div>
+                                    </div>
+                                    <div class="clearboth"></div>
+                                  </div>
+                                </div>
+                                <div class=" vc_custom_1533480791762">
+
+                                  <div id="text-block-25" class="mk-text-block   ">
+
+
+                                    <h3 style="text-align: center;">Recogida de mercancía</h3>
+                                    <p style="text-align: center;">Nos encargamos del picking</p>
+
+                                    <div class="clearboth"></div>
+                                  </div>
+
+                                </div>
+
+                                <div class="clearfix"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class="mk-custom-box caja-sombra hover-effect-image" id="box-26">
+                              <div class="box-holder">
+                                <div class="mk-image mk-image-27   align-center simple-frame inside-image iconos" style="margin-bottom:10px">
+                                  <div class="mk-image-container" style="width:100%;">
+                                    <div class="mk-image-holder" style="width:100%;">
+                                      <div class="mk-image-inner is-svg "><img class="lightbox-false" alt="pay-us-you-store" title="pay-us-you-store" width="0" height="0" src="assets/svg/pay-as-you-store.svg" style="width:100%;"></div>
+                                    </div>
+                                    <div class="clearboth"></div>
+                                  </div>
+                                </div>
+                                <div class=" vc_custom_1533480855682">
+
+                                  <div id="text-block-28" class="mk-text-block   ">
+
+
+                                    <h3 style="text-align: center;">Pay us you store</h3>
+                                    <p style="text-align: center;">Paga solo el espacio ocupado</p>
+
+                                    <div class="clearboth"></div>
+                                  </div>
+
+                                </div>
+
+                                <div class="clearfix"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="padding-29" class="mk-padding-divider   clearfix"></div>
+
+
+
+                    <div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+
+                      <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-offset-2 vc_col-md-offset-2 vc_col-sm-offset-2">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class="mk-custom-box caja-sombra hover-effect-image" id="box-30">
+                              <div class="box-holder">
+                                <div class="mk-image mk-image-31   align-center simple-frame inside-image iconos" style="margin-bottom:10px">
+                                  <div class="mk-image-container" style="width:100%;">
+                                    <div class="mk-image-holder" style="width:100%;">
+                                      <div class="mk-image-inner is-svg "><img class="lightbox-false" alt="gestion-online" title="gestion-online" width="0" height="0" src="assets/svg/gestion-online.svg" style="width:100%;"></div>
+                                    </div>
+                                    <div class="clearboth"></div>
+                                  </div>
+                                </div>
+                                <div class=" vc_custom_1533480926153">
+
+                                  <div id="text-block-32" class="mk-text-block   ">
+
+
+                                    <h3 style="text-align: center;">Gestión online</h3>
+                                    <p style="text-align: center;">Aplicación con todo integrado</p>
+
+                                    <div class="clearboth"></div>
+                                  </div>
+
+                                </div>
+
+                                <div class="clearfix"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class="mk-custom-box caja-sombra hover-effect-image" id="box-33">
+                              <div class="box-holder">
+                                <div class="mk-image mk-image-34   align-center simple-frame inside-image iconos" style="margin-bottom:10px">
+                                  <div class="mk-image-container" style="width:100%;">
+                                    <div class="mk-image-holder" style="width:100%;">
+                                      <div class="mk-image-inner is-svg "><img class="lightbox-false" alt="entrega" title="entrega" width="0" height="0" src="assets/svg/entrega.svg" style="width:100%;"></div>
+                                    </div>
+                                    <div class="clearboth"></div>
+                                  </div>
+                                </div>
+                                <div class=" vc_custom_1533481009638">
+
+                                  <div id="text-block-35" class="mk-text-block   ">
+
+
+                                    <h3 style="text-align: center;">Entrega</h3>
+                                    <p style="text-align: center;">Entregamos al cliente final</p>
+
+                                    <div class="clearboth"></div>
+                                  </div>
+
+                                </div>
+
+                                <div class="clearfix"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="vc_row-full-width vc_clearfix"></div>
+              <div id="comenzar" data-mk-full-width="true" data-mk-full-width-init="false" class="wpb_row vc_row vc_row-fluid  mk-fullwidth-true  attched-false    vc_custom_1533482181240  equal-columns js-master-row ">
+                <div class="mk-grid">
+
+                  <div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+
+                    <div id="padding-37" class="mk-padding-divider   clearfix"></div>
+
+
+
+                    <div class="wpb_row vc_inner vc_row vc_row-fluid    attched-false   ">
+
+                      <div class="wpb_column vc_column_container vc_col-sm-8 vc_col-lg-offset-2 vc_col-md-offset-2 vc_col-sm-offset-2">
+                        <div class="vc_column-inner ">
+                          <div class="wpb_wrapper">
+                            <div class=" vc_custom_1533481231521">
+
+                              <div id="text-block-38" class="mk-text-block   ">
+
+
+                                <h4 style="text-align: center;">Danos tus datos y te llamamos</h4>
+                                <p style="text-align: center;">Déjanos tu nombre y número de teléfono y te llamaremos para saber qué necesitas y cómo podemos ayudarte</p>
+
+                                <div class="clearboth"></div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="padding-39" class="mk-padding-divider   clearfix"></div>
+
+                    <div role="form" class="wpcf7" id="wpcf7-f15-p10-o1" lang="es-ES" dir="ltr">
+                      <div class="screen-reader-response"></div>
+                      <form action="https://formspree.io/esquinasenrique@googlemail.com" method="POST" class="wpcf7-form" novalidate="novalidate">
+                        <div style="display: none;">
+                          <input type="hidden" name="version" value="20180805" />
+                        </div>
+                        <center>
+                        
+                        <p><span class="wpcf7-form-control-wrap nombre">
+                        <input type="text" name="nombre" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nombre*" /></span></p>
+                        
+                        <p><span class="wpcf7-form-control-wrap nombre-empresa">
+                        <input type="text" name="nombre-empresa" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Empresa" /></span></p>
+                        
+                        <p><span class="wpcf7-form-control-wrap mail"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="E-mail*" /></span></p>
+                        
+                        <p><span class="wpcf7-form-control-wrap telefono">
+                        <input type="tel" name="telefono" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Teléfono*" /></span></p>
+                        
+                        <p><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></p>
+                        </center>
+                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                      </form>
+                    </div>
+                    <div id="padding-40" class="mk-padding-divider   clearfix"></div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="vc_row-full-width vc_clearfix"></div>
+              <div class="clearboth"></div>
+              <div class="clearboth"></div>
+            </div>
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <section id="mk-footer-unfold-spacer"></section>
+
+      <section id="mk-footer" class=" mk-footer-disable" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+
+        <div id="sub-footer">
+          <div class=" mk-grid">
+
+            <span class="mk-footer-copyright">Dropier 2018 - Málaga</span>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="bottom-corner-btns js-bottom-corner-btns">
+
+    <a href="#top-of-page" class="mk-go-top  js-smooth-scroll js-bottom-corner-btn js-bottom-corner-btn--back">
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-up" data-cacheid="icon-5b671a2fed2e2" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1683 1331l-166 165q-19 19-45 19t-45-19l-531-531-531 531q-19 19-45 19t-45-19l-166-165q-19-19-19-45.5t19-45.5l742-741q19-19 45-19t45 19l742 741q19 19 19 45.5t-19 45.5z"/></svg></a>
+  </div>
+
+
+
+  <div class="mk-fullscreen-search-overlay">
+    <a href="#" class="mk-fullscreen-close"><svg  class="mk-svg-icon" data-name="mk-moon-close-2" data-cacheid="icon-5b671a2fed67a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M390.628 345.372l-45.256 45.256-89.372-89.373-89.373 89.372-45.255-45.255 89.373-89.372-89.372-89.373 45.254-45.254 89.373 89.372 89.372-89.373 45.256 45.255-89.373 89.373 89.373 89.372z"/></svg></a>
+    <div class="mk-fullscreen-search-wrapper">
+      <p>Start typing and press Enter to search</p>
+      <form method="get" id="mk-fullscreen-searchform" action="http://dropier.atypical-studio.com/">
+        <input type="text" value="" name="s" id="mk-fullscreen-search-input" />
+        <i class="fullscreen-search-icon"><svg  class="mk-svg-icon" data-name="mk-icon-search" data-cacheid="icon-5b671a2fed81a" style=" height:25px; width: 23.214285714286px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1792"><path d="M1152 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></i>
+      </form>
+    </div>
+  </div>
+
+
+  <style type='text/css'></style>
+  <style id="mk-shortcode-static-styles" type="text/css">
+    #padding-3 {
+      height: 100px;
+    }
+
+    #padding-5 {
+      height: 20px;
+    }
+
+    #text-block-6 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #padding-7 {
+      height: 20px;
+    }
+
+    #mk-button-8 {
+      margin-bottom: 15px;
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+
+    #mk-button-8 .mk-button {
+      display: inline-block;
+      max-width: 100%;
+    }
+
+    #mk-button-8 .mk-button {
+      background-color: #00b4ff;
+    }
+
+    #mk-button-8 .mk-button:hover {
+      color: #ffffff !important;
+      background-color: rgba(0, 180, 255, 0.8);
+    }
+
+    #mk-button-8 .mk-button:hover .mk-svg-icon {
+      color: #ffffff !important;
+    }
+
+    #padding-9 {
+      height: 120px;
+    }
+
+    .vc_custom_1533482396972 {}
+
+    #padding-12 {
+      height: 20px;
+    }
+
+    #padding-14 {
+      height: 20px;
+    }
+
+    #text-block-15 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #padding-16 {
+      height: 20px;
+    }
+
+    #mk-button-17 {
+      margin-bottom: 15px;
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+
+    #mk-button-17 .mk-button {
+      display: inline-block;
+      max-width: 100%;
+    }
+
+    #mk-button-17 .mk-button {
+      background-color: #00b4ff;
+    }
+
+    #mk-button-17 .mk-button:hover {
+      color: #ffffff !important;
+      background-color: rgba(0, 180, 255, 0.8);
+    }
+
+    #mk-button-17 .mk-button:hover .mk-svg-icon {
+      color: #ffffff !important;
+    }
+
+    #padding-18 {
+      height: 90px;
+    }
+
+    #padding-20 {
+      height: 40px;
+    }
+
+    #text-block-21 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #padding-22 {
+      height: 40px;
+    }
+
+    #text-block-25 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #box-23 .box-holder {
+      background-color: #ffffff;
+    }
+
+    #box-23 {
+      margin-bottom: 10px;
+    }
+
+    #box-23 .box-holder {
+      min-height: 150px;
+      padding: 30px 20px;
+    }
+
+    #text-block-28 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #box-26 .box-holder {
+      background-color: #ffffff;
+    }
+
+    #box-26 {
+      margin-bottom: 10px;
+    }
+
+    #box-26 .box-holder {
+      min-height: 100px;
+      padding: 30px 20px;
+    }
+
+    #padding-29 {
+      height: 40px;
+    }
+
+    #text-block-32 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #box-30 .box-holder {
+      background-color: #ffffff;
+    }
+
+    #box-30 {
+      margin-bottom: 10px;
+    }
+
+    #box-30 .box-holder {
+      min-height: 150px;
+      padding: 30px 20px;
+    }
+
+    #text-block-35 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #box-33 .box-holder {
+      background-color: #ffffff;
+    }
+
+    #box-33 {
+      margin-bottom: 10px;
+    }
+
+    #box-33 .box-holder {
+      min-height: 100px;
+      padding: 30px 20px;
+    }
+
+    #padding-37 {
+      height: 70px;
+    }
+
+    #text-block-38 {
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    #padding-39 {
+      height: 40px;
+    }
+
+    #padding-40 {
+      height: 40px;
+    }
+
+  </style>
+  <script type="text/javascript">
+    php = {
+      hasAdminbar: false,
+      json: (null != null) ? null : "",
+      jsPath: 'http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/js'
+    };
+
+  </script>
+  <script type='text/javascript'>
+    /* <![CDATA[ */
+    var wpcf7 = {
+      "apiSettings": {
+        "root": "http:\/\/dropier.atypical-studio.com\/wp-json\/contact-form-7\/v1",
+        "namespace": "contact-form-7\/v1"
+      },
+      "recaptcha": {
+        "messages": {
+          "empty": "Por favor, prueba que no eres un robot."
+        }
+      }
+    };
+    /* ]]> */
+
+  </script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/assets/js/min/full-scripts.6.1.5.js?ver=1533457251'></script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-render.js?ver=6.1.5'></script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-column.js?ver=6.1.5'></script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+  <script type='text/javascript' src='http://dropier.atypical-studio.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.5.2'></script>
+  <script type="text/javascript">
+    window.get = {};
+    window.get.captcha = function(enteredCaptcha) {
+      return jQuery.get(ajaxurl, {
+        action: "mk_validate_captcha_input",
+        captcha: enteredCaptcha
+      });
+    };
+
+  </script>
 </body>
 
 </html>
